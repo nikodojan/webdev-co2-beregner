@@ -14,7 +14,12 @@ function calculateEmission(){
   let gramPerKilometer = emissionData[transport];
   let emission = gramPerKilometer * distance / 1000;
   document.getElementById('result').innerText = emission;
-  //return gramPerKilometer * distance / 1000;
 }
 
 //console.log(calculateEmission('bil', 1))
+
+// function setRangeValue(){
+//   let range = document.getElementById('distanceRange');
+//   let rangelabel = document.getElementById('rangeLabel');
+//   rangelabel.innerText = range.value;
+// }

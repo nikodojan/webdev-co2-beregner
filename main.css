@@ -1,5 +1,8 @@
 .green-button {
-  background-color: #008000;
+  background-color: #f0feed;
+  outline: solid #009957;
+  outline-width: 1px;
+  color: #009957;
 }
 
 .green-button:hover {
@@ -8,5 +11,5 @@
 }
 
 .green-bg {
-  background-color: #e1f1ac;
+  background-color: #f0feed;
 }
